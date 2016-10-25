@@ -1,0 +1,16 @@
+development:
+  user: fedoraAdmin
+  password: fedoraAdmin
+  url: http://ec2-52-204-33-203.compute-1.amazonaws.com:8080/fcrepo/rest
+  base_path: /dev-sufia-demo
+test:
+  user: fedoraAdmin
+  password: fedoraAdmin
+  url: http://ec2-52-204-33-203.compute-1.amazonaws.com:8080/fcrepo/rest
+  base_path: /test-sufia-demo
+production:
+  user: fedoraAdmin
+  password: fedoraAdmin
+  url: http://ec2-52-204-33-203.compute-1.amazonaws.com:8080/fcrepo/rest
+  base_path: /prod-sufia-demo
+
