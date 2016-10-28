@@ -6,7 +6,11 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <a href="#skip_to_content" class="sr-only">Skip to Content</a>
-  <%= render partial: '/masthead' %>
+  <% unless current_page?(root_path) %>
+    <%= render partial: '/masthead' %>
+  <% else %>
+    <%= render partial: '/homepage_masthead' %>
+  <% end %>  
   <%= render 'shared/footer' %>
 </body>
 </html>
