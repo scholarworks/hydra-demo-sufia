@@ -12,3 +12,4 @@ Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += %w( grayscale.css )
 Rails.application.config.assets.precompile += %w( ulms.css )
+Rails.application.config.assets.precompile += %w( csu_sufia.css )
