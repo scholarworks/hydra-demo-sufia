@@ -125,3 +125,9 @@ footer {
 	font-size: 15px;
 	margin-bottom: 10px;
 }
+
+.masthead {
+    margin-bottom: 0px;
+	padding: 0px 0;
+	background-color: black; 
+}
