@@ -8,6 +8,12 @@
 	<meta name="author" content="California State University">
 	<title><%= content_for?(:page_title) ? yield(:page_title) : default_page_title %></title>
 	<link rel="icon" href="http://xerxes.calstate.edu/favicon.ico">
+	
+	<!-- application css -->
+    <%= stylesheet_link_tag 'application' %>
+
+    <!-- application js -->
+    <%= javascript_include_tag 'application' %>
 		
 	<!-- Custom Fonts -->
 	<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
