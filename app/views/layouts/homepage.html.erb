@@ -11,7 +11,9 @@
 							<h1 class="intro">ScholarWorks Digital Repository Systems<h1>
 							<h3 class="intro">The CSU libraries working smarter together.</h3>
 							<div class="wiki">
-								<%= image_tag "confluence.png" %>&nbsp;&nbsp;<a href="https://calstate.atlassian.net/wiki/display/SCHOL/">Visit the Project Wiki</a>
+						      <%= link_to main_app.new_user_session_path do %>
+                                <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span > <%= t("sufia.toolbar.profile.login") %>
+                              <% end %>
 							</div>
 						</div>
                     </div>
